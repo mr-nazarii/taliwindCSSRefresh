@@ -3,7 +3,7 @@ import "./App.css";
 function App() {
   return (
     <div className="flex justify-center items-center h-screen bg-slate-400">
-      <div className="w-[100%] md:w-max px-15 m-5 p-10 bg-slate-300 rounded-xl shadow-md cursor-default flex flex-col-reverse md:flex-row items-center">
+      <div className="scale-90 hover:scale-100 hover:shadow-2xl duration-300 w-[100%] md:w-max px-15 m-5 p-10 bg-slate-300 rounded-xl shadow-md cursor-default flex flex-col-reverse md:flex-row items-center">
         <div>
           <h1 className="text-4xl md:text-5xl font-bold text-purple-900 text-center md:text-left my-3 hover:text-cyan-500 duration-300">
             Hello TailwindCSS!
